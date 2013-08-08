@@ -1,0 +1,13 @@
+{
+  "name": "10tabs",
+  "version": "1.0",
+  "description": "limits the open tabs to 20 - I just like the name 10tabs ;) - when you try to open 21st tab it sends you to the least recently used tab",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["manager.js"]
+  },
+  "manifest_version": 2
+}
